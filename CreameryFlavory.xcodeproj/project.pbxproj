@@ -11,19 +11,21 @@
 		D49B982D2569C2EA00951A8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B982C2569C2EA00951A8A /* SceneDelegate.swift */; };
 		D49B982F2569C2EA00951A8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B982E2569C2EA00951A8A /* ViewController.swift */; };
 		D49B98322569C2EA00951A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49B98302569C2EA00951A8A /* Main.storyboard */; };
-		D49B98342569C2ED00951A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D49B98332569C2ED00951A8A /* Assets.xcassets */; };
 		D49B98372569C2ED00951A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49B98352569C2ED00951A8A /* LaunchScreen.storyboard */; };
+		D49B9849256C7EC100951A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D49B9848256C7EC100951A8A /* Assets.xcassets */; };
+		D49FA62D257594B70070C7A7 /* IceCreamFlavorModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D49FA62C257594B70070C7A7 /* IceCreamFlavorModel.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D49B98272569C2EA00951A8A /* CreameryFlavery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreameryFlavery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49B98272569C2EA00951A8A /* CreameryFlavory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreameryFlavory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49B982A2569C2EA00951A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D49B982C2569C2EA00951A8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D49B982E2569C2EA00951A8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D49B98312569C2EA00951A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D49B98332569C2ED00951A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D49B98362569C2ED00951A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D49B98382569C2ED00951A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49B9848256C7EC100951A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/AppIcons (1)/Assets.xcassets"; sourceTree = "<group>"; };
+		D49FA62C257594B70070C7A7 /* IceCreamFlavorModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = IceCreamFlavorModel.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		D49B98282569C2EA00951A8A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D49B98272569C2EA00951A8A /* CreameryFlavery.app */,
+				D49B98272569C2EA00951A8A /* CreameryFlavory.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,9 +62,10 @@
 				D49B982C2569C2EA00951A8A /* SceneDelegate.swift */,
 				D49B982E2569C2EA00951A8A /* ViewController.swift */,
 				D49B98302569C2EA00951A8A /* Main.storyboard */,
-				D49B98332569C2ED00951A8A /* Assets.xcassets */,
+				D49B9848256C7EC100951A8A /* Assets.xcassets */,
 				D49B98352569C2ED00951A8A /* LaunchScreen.storyboard */,
 				D49B98382569C2ED00951A8A /* Info.plist */,
+				D49FA62C257594B70070C7A7 /* IceCreamFlavorModel.mlmodel */,
 			);
 			path = CreameryFlavery;
 			sourceTree = "<group>";
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D49B98262569C2EA00951A8A /* CreameryFlavery */ = {
+		D49B98262569C2EA00951A8A /* CreameryFlavory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D49B983B2569C2ED00951A8A /* Build configuration list for PBXNativeTarget "CreameryFlavery" */;
+			buildConfigurationList = D49B983B2569C2ED00951A8A /* Build configuration list for PBXNativeTarget "CreameryFlavory" */;
 			buildPhases = (
 				D49B98232569C2EA00951A8A /* Sources */,
 				D49B98242569C2EA00951A8A /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = CreameryFlavery;
+			name = CreameryFlavory;
 			productName = CreameryFlavery;
-			productReference = D49B98272569C2EA00951A8A /* CreameryFlavery.app */;
+			productReference = D49B98272569C2EA00951A8A /* CreameryFlavory.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D49B98222569C2EA00951A8A /* Build configuration list for PBXProject "CreameryFlavery" */;
+			buildConfigurationList = D49B98222569C2EA00951A8A /* Build configuration list for PBXProject "CreameryFlavory" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D49B98262569C2EA00951A8A /* CreameryFlavery */,
+				D49B98262569C2EA00951A8A /* CreameryFlavory */,
 			);
 		};
 /* End PBXProject section */
@@ -125,7 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D49B98372569C2ED00951A8A /* LaunchScreen.storyboard in Resources */,
-				D49B98342569C2ED00951A8A /* Assets.xcassets in Resources */,
+				D49B9849256C7EC100951A8A /* Assets.xcassets in Resources */,
 				D49B98322569C2EA00951A8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +143,7 @@
 				D49B982F2569C2EA00951A8A /* ViewController.swift in Sources */,
 				D49B982B2569C2EA00951A8A /* AppDelegate.swift in Sources */,
 				D49B982D2569C2EA00951A8A /* SceneDelegate.swift in Sources */,
+				D49FA62D257594B70070C7A7 /* IceCreamFlavorModel.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -322,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D49B98222569C2EA00951A8A /* Build configuration list for PBXProject "CreameryFlavery" */ = {
+		D49B98222569C2EA00951A8A /* Build configuration list for PBXProject "CreameryFlavory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D49B98392569C2ED00951A8A /* Debug */,
@@ -331,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D49B983B2569C2ED00951A8A /* Build configuration list for PBXNativeTarget "CreameryFlavery" */ = {
+		D49B983B2569C2ED00951A8A /* Build configuration list for PBXNativeTarget "CreameryFlavory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D49B983C2569C2ED00951A8A /* Debug */,
